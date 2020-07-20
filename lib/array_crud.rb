@@ -19,12 +19,13 @@ end
 
 def remove_element_from_end_of_array(array)
   family = ["james", "lauren", "edward", "anney" ]
-  family.pop "arrays!"
+  family.pop
+
 end
 
 def remove_element_from_start_of_array(array)
   family = ["james", "lauren", "edward", "anney" ]
-  family.shift "arrays!"
+
 end
 
 def retrieve_element_from_index(array, index_number)
