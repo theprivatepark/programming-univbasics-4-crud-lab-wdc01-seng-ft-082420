@@ -13,7 +13,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   family = ["james", "lauren", "edward", "anney" ]
-  family.unshift ""
+  family.unshift "wow"
 
 end
 
