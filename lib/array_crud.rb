@@ -8,10 +8,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   family = ["james", "lauren", "edward", "anney" ]
-  family << "angelina"
+  family << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
+  family = ["james", "lauren", "edward", "anney" ]
+  family.unshift ""
 
 end
 
