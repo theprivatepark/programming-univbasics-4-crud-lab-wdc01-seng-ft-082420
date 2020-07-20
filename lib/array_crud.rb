@@ -7,19 +7,16 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  family = ["james", "lauren", "edward", "anney" ]
   family << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  family = ["james", "lauren", "edward", "anney" ]
   family.unshift "wow"
 
 end
 
 def remove_element_from_end_of_array(array)
-  family = ["james", "lauren", "edward", "anney" ]
-  family.pop
+  family.pop "arrays!"
 
 end
 
